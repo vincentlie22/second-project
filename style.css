@@ -301,6 +301,7 @@ table tr th {
 
   body {
     margin: auto;
+    width: 100%;
   }
 
   .bagian-kiri {
@@ -313,7 +314,7 @@ table tr th {
   }
   
   .bagian-kanan img {
-    width: 220px;
+    width: 210px;
     height: 150px;
   }
 
@@ -321,16 +322,19 @@ table tr th {
     display: none;
   }
 
-  .section-dua .container-kiri {
-    flex: 0.1;
+  .section-dua .container-kiri .isi-kiri {
+    flex: 50%;
   }
 
   .section-dua .container-kanan {
-    flex: 1.9;
+    flex: 50%;
   }
 
   .section-satu h2 {
     color: black;
+    position: relative;
+    left: 300px;
+    top: 50px;
   }
 
   .section-satu p.atas {
@@ -372,16 +376,27 @@ table tr th {
    width: 100%;
   }
 
+  header {
+    width: 100%;
+  }
+
   header h1{
     font-size: 1.5em;
     position: relative;
-    left: 5px;
+    left: 20px;
   }
 
   nav ul {
     gap: 15px;
     font-size: 0.9em;
+    transform: translateX(0%);
   }
+
+  .article-atas {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
 
 }
 
