@@ -301,7 +301,7 @@ table tr th {
 
   body {
     margin: auto;
-    width: 100%;
+    max-width: 450px;
   }
 
   .bagian-kiri {
@@ -314,7 +314,7 @@ table tr th {
   }
   
   .bagian-kanan img {
-    width: 204px;
+    width: 220px;
     height: 150px;
   }
 
@@ -323,11 +323,11 @@ table tr th {
   }
 
   .section-dua .container-kiri .isi-kiri {
-    flex: 50%;
+    flex: 30%;
   }
 
   .section-dua .container-kanan {
-    flex: 50%;
+    flex: 70%;
   }
 
   .section-satu h2 {
@@ -407,4 +407,5 @@ table tr th {
   --cream: #f5efe6;
   --soft-white: #fffdf9;
 }
+
 
